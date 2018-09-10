@@ -36,7 +36,7 @@ func Transfers(mchTLSClient *mchcore.Client, appId, mchId, partner_trade_no, ope
 		"partner_trade_no": partner_trade_no,
 		"openid":           openid,
 		"check_name":       check_name,
-		"re_user_name":     check_name,
+		"re_user_name":     re_user_name,
 		"desc":             desc,
 		"amount":           mch.GetInt64Str(amount),
 		"spbill_create_ip": mch.GetLocalIp(),
